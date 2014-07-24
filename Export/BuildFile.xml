@@ -1,0 +1,36 @@
+<use name="FWCore/Framework"/>
+<use name="FWCore/PluginManager"/>
+<use name="FWCore/ParameterSet"/>
+<use name="FWCore/MessageLogger"/>
+<use name="FWCore/ServiceRegistry"/>
+<use name="DataFormats/TrackReco"/>
+<use name="SimDataFormats/Track"/>
+<use name="SimDataFormats/TrackingHit"/>
+<use name="SimDataFormats/TrackingAnalysis"/>
+<use name="Geometry/TrackerGeometryBuilder"/>
+<use name="Geometry/Records"/>
+<use name="Geometry/CommonDetUnit"/>
+<use name="CommonTools/UtilAlgos"/>
+<use name="DataFormats/TrackerRecHit2D" />
+<use name="TrackingTools/TransientTrackingRecHit" />
+<use name="TrackingTools/Records" />
+<use name="TrackingTools/TrackFitters" />
+<use name="SimTracker/TrackAssociation" />
+<use name="SimTracker/Records" />
+<use name="RecoPixelVertexing/PixelLowPtUtilities" />
+<use name="RecoTracker/TkSeedGenerator" />
+<use name="RecoTracker/TkTrackingRegions" />
+<use name="RecoLocalTracker/Records"/>
+
+
+<use name="clhep" />
+<use name="root"/>
+<use name="protobuf" />
+
+#<!-- <flags CXXFLAGS="-O0 -g -DDEBUG"/> -->
+
+<Flags CXXFLAGS="-g">
+<flags EDM_PLUGIN="1"/>
+<export>
+   <lib name="1"/>
+</export>
